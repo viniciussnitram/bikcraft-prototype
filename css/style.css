@@ -17,3 +17,31 @@ body {
     justify-items: center;
     gap: 60px;
 }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+menu {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+ul,
+h1,
+h2,
+h3 {
+    margin: 0px;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 1.3;
+}
