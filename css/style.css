@@ -122,3 +122,37 @@ p {
     object-fit: cover;
     object-position: top center;
 }
+
+.caption {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--dark-gray);
+    text-align: right;
+    padding: 40px;
+    align-self: center;
+    background-image: url('/assets/images/onda.svg');
+}
+
+.benefits {
+    background-color: var(--white);
+    padding: 40px;
+}
+
+.benefits-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+}
+
+.benefits-item:hover {
+    border-left: 4px solid var(--red);
+}
+
+.benefits-item:nth-child(odd) {
+    background-color: var(--gray);
+}
+
+.benefits-item p {
+    grid-column: 2;
+}
