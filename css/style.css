@@ -164,3 +164,13 @@ p {
     padding: 40px;
     box-sizing: border-box;
 }
+
+@media (max-width: 1000px) {
+    .benefit-content {
+        grid-template-columns: 1fr;
+    }
+
+    .caption {
+        text-align: center;
+    }
+}
