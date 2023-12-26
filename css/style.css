@@ -72,3 +72,53 @@ p {
 .menu li a:hover {
     border-color: var(--red);
 }
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1000px;
+}
+
+.introduction {
+    background-color: var(--white);
+    padding: 40px;
+    text-align: right;
+    position: relative;
+    display: grid;
+    align-content: center;
+    justify-items: end;
+    gap: 20px;
+}
+
+.introduction::before {
+    content: '';
+    display: block;
+    background-color: var(--red);
+    width: 60px;
+    height: 4px;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.introduction h1 {
+    font-size: 2rem;
+}
+
+.button {
+    background-color: var(--red);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: var(--dark-red);
+}
+
+.introduction-cover img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
