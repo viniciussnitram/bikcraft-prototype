@@ -17,6 +17,7 @@ This is a project by [Origamid](https://www.origamid.com/) course. The project's
 
 ## Screenshots
 ![Screenshot of the main screen](./assets/images/screenshots/image.png)
+<br>
 *Subtitle: Screenshot of the main screen. Logo and nav menu on the top of image, one below the other, on the middle of image a big heading and paragraph, a button and side that a image of black bike.*
 
 <br>
